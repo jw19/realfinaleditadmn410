@@ -1,0 +1,127 @@
+#navigation {
+  background-color: #eee;
+}
+#navigation ul {
+  margin: 0;
+  padding: 0; 
+}
+#navigation li {
+  border-right: 1px solid #ddd;
+  display: block;
+  float: left;
+  margin: 0;
+}
+#navigation a {
+  background-color: #eee;
+  color: #333;
+  display: block;
+  padding: 1.0em 4.0em;
+  text-decoration: none;
+  transition: all .25s ease-in-out;
+ }
+
+#navigation a:hover {
+  background-color: #ddd;
+}
+#content {
+      padding: 0 25px 25px;
+      min-height:100%;
+      }
+      
+#wrap {
+      height: 100%;
+      margin-bottom:-10px;
+      background-color: lightblue;
+      width:940px;
+      }
+#banner {
+    height: 300px;
+    width: 940px;
+    margin-top:-10px;
+    background-image:url("banner.jpg");
+    background-position:top;
+    background-repeat: repeat;
+        }
+table {
+        width: 900px;}
+      th, td {
+        padding: 7px 10px 10px 10px;
+        text-align: center
+        }
+      th {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-size: 90%;
+        border-bottom: 2px solid #B8B8B8;
+        text-align: center;}
+      tr:nth-child(even) {
+        background-color: #dddddd;
+        text-align: center}
+#image {
+  text-align:center;
+  
+}
+#post {
+    border:3px grey;
+    margin: 20px;margin-bottom:15px;padding:8px;
+    font-size: 25px;
+    background-color: white;
+    font-family: TW CEN MT, Georgia;
+    }
+ 
+body {
+        width:940px;
+        margin: auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: repeat;
+        background-attachment: fixed;
+      }
+
+h1 {
+       color:black;
+       text-align: center;
+       font-size: 55px
+          }
+h2 {
+     color: #808080;
+     font-family: fantasy;
+     margin-left:50px;
+     font-size:40px
+}
+h3 {
+     color:black;
+     font-family: monospace;
+     text-align: center;
+}
+
+p {
+      margin-left: 50px;
+      margin-right: 50px;
+      font-family: TW CEN MT, Georgia;
+      text-align: center
+ }
+ 
+#footer{
+    border:1px pink;
+    text-align:center;
+	  background-color:white;
+	  color:grey;
+	  text-shadow:1px 1px 0 rgba(255,255,255,0.6);
+}
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: hotpink;
+    outline:thick dotted;
+}
+
+a:active {
+    color: blue;
+}
